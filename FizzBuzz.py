@@ -2,7 +2,7 @@ string3="Fizz"
 string5="Buzz"
 string15="FizzBuzz"
 
-for i in range(1,101):
+for i in range(1, 101):
     if i % 15 == 0 :
         print(string15)
     elif i % 3 == 0:
