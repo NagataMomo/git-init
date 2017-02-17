@@ -2,16 +2,13 @@ a=[9,6,7,1,2]
 
 
 
-#for j  in range(len(a)):
+for j  in range(1,len(a)):
 
-i=0
-while True:
-
-        if    (a[ i ] < a[i + 1])& (i>=4 ):
-        break
-    t=a[i]
-    a[i]=a[i+1]
-    a[i+1]=t
-    i+=1
+    i=j
+    while (a[ i-1 ] > a[i])and (i>0 ):
+        t=a[i-1]
+        a[i-1]=a[i]
+        a[i]=t
+        i-=1
 
 print(a)
