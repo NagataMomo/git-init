@@ -3,13 +3,13 @@ line = int(input())
 for i in range(line):
     if (i == 0)  :
         total = 0
-        list = [total]
+        a = [total]
 
     elif (i == 1)  :
         total2 = 1
-        list.append(total2)
+        a.append(total2)
     else:
-        total = list[ i - 1 ] + list[ i - 2 ]
-        list.append(total)
+        total = a[ i - 1 ] + a[ i - 2 ]
+        a.append(total)
 print("出力")
-print(list)
+print(a)

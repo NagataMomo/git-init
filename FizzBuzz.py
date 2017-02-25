@@ -1,13 +1,10 @@
-string3="Fizz"
-string5="Buzz"
-string15="FizzBuzz"
 
 for i in range(1, 101):
     if i % 15 == 0 :
-        print(string15)
+        print("FizzBuzz")
     elif i % 3 == 0:
-        print(string3)
+        print("Fizz")
     elif i % 5 == 0:
-        print(string5)
+        print("Buzz")
     else :
         print(i)
